@@ -6,3 +6,6 @@ Neste portifólio haverá tudo sobre mim. Terá coisas relacionadas a minha vida
 softskills e muitas outras coisas. 
 
 Então leia com atenção e caso goste do que leu, meu contato está no portifólio. 
+
+Este é o link para acessar meu portifólio online.
+https://portifolio-cs6u.vercel.app/
