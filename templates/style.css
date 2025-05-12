@@ -12,22 +12,29 @@ body {
     max-width: 100%;
 }
 
-header {
-    padding: 2rem;
+header, div{
+    display: grid;
+    grid-template-columns: 1fr auto; 
+    padding: 1rem;
     background-color: #7c3ec0;
+    align-items: center;
     text-align: center;
     color: rgb(255 252 0);
-    
+    gap: 2rem;
+    font-size: large;
 }
 
-header img{
-    padding: 1rem;
-    margin: 1rem 1rem -2rem 65rem;
-    width: 12rem;
-    height: 19rem; 
+header img {
+    padding: 0rem;
+    width: 10rem;
+    height: 15rem; 
     border-radius: 50%;
     object-fit: cover;
+    justify-self: end; 
+    box-shadow: 0 5px 20px rgb(247, 239, 2);
+    margin: 0rem 10rem 0rem ;
 }
+
 
 main { 
     padding: 2rem;
