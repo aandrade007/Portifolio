@@ -17,6 +17,16 @@ header {
     background-color: #7c3ec0;
     text-align: center;
     color: rgb(255 252 0);
+    
+}
+
+header img{
+    padding: 1rem;
+    margin: 1rem 1rem -2rem 65rem;
+    width: 12rem;
+    height: 19rem; 
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 main { 
@@ -31,9 +41,9 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    border-radius: 10px;            /* Cantos arredondados */
-    box-shadow: 0 4px 10px rgb(0, 0, 0); /* Sombra suave */
-    max-width: 100%;              /* Largura máxima para centralizar */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    max-width: 100%;
     padding: 2rem;
 }
 
@@ -86,19 +96,32 @@ nav{
 }
 
 nav a {
-padding: 0.6rem;
-background-color: #7c3ec0;
-color: #e7d1ff;
-border: none;
-border-radius: 5px;
-text-decoration: none;
-font-size: 1rem;
-transition: background-color 0.3s ease;
+    padding: 0.6rem;
+    background-color: #7c3ec0;
+    color: #e7d1ff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+    background-color: #39086d;
+    cursor: pointer;
 }
 
-nav a:hover {
-background-color: #39086d;
-cursor: pointer;
+details {
+    padding: 0rem;
+    max-width: 100%;
+    margin: 0.5rem;
+}
+
+
+details summary {
+    cursor: pointer;
+    padding: 0rem;
+    color: #7c3ec0;
 }
 
 
