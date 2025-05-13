@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Faz com que o padding e border não aumentem o tamanho total dos elementos */
+    box-sizing: border-box;
 }
 
 body {
     background-color: #dec2fc; 
     color: rgba(53, 1, 61, 0.747); 
     font-family: Arial, Helvetica, sans-serif; 
-    font-weight: 400; /*Deixa tudo em "negrito*/
+    font-weight: 400; 
     max-width: 100%;
 }
 
