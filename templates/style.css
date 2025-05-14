@@ -50,7 +50,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: #faecf9;
+    background-color: #121212ee;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     padding: 2rem;
@@ -61,8 +61,20 @@ section:hover {
     transform: translateY(-5px);
 }
 
+.section-baixa {
+     background: linear-gradient(to right, #b9b9b9, #868686);
+}
+
+.section-baixa p{
+    color:#292929;
+}
+
+p {
+    color: #b9b9b9;
+}
+
 h2 {
-    color: #4d0059;
+    color: #b401cf;
     border-bottom: 2px solid #b184dc;
     padding: 0.5rem;
 }
@@ -72,14 +84,15 @@ h3 {
     margin-top: 1rem;
 }
 
-p, li {
-    color: #272600;
+ul li {
+    color: #292929;
     font-size: 1rem;
 }
 
 ul {
     padding-left: 1.5rem;
     list-style-type: disc;
+    color: #292929;
 }
 
 ol {
@@ -95,7 +108,7 @@ details {
 details summary {
     cursor: pointer;
     font-weight: 600;
-    color: #3c0d61;
+    color: #292929;
     font-size: 1.1rem;
 }
 
@@ -158,6 +171,7 @@ footer {
     font-weight: 600;
     margin-top: 0rem;
     color: #ccc;
+     margin: 0 100px 0 0;
 }
 
 .footer :hover{
