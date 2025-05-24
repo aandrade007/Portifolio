@@ -21,7 +21,7 @@ header {
     align-items: center;
     text-align: center;
     color: #fff1f1;
-    text-shadow: 1px 3px 6px #ca59ff;
+    text-shadow: 0px 0px 4px #ca59ff;
 }
 
 header div {
@@ -31,11 +31,11 @@ header div {
 }
 
 header img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+    width: 15rem;
+    height: 25rem;
+    border-radius: 10%;
     object-fit: cover;
-    box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
     margin-right: 10rem;
 }
 
@@ -75,10 +75,10 @@ p {
     font-size: 1.2rem;
 }
 
-h2 {
+h2{
     color: #b401cf;
     border-bottom: 2px solid #b184dc;
-    padding: 0.5rem;
+    padding: 0.6rem;
 }
 
 h3 {
@@ -109,11 +109,29 @@ details {
 }
 
 details summary {
+    display: flex;
     cursor: pointer;
     font-weight: 600;
-    color: #292929;
+    color: #000000;
     font-size: 1.1rem;
+    list-style: none;
+    align-items: center;
+    gap: 8px; 
+    padding: 8px;
+    transition: color 0.3s;
+    padding: 0.4rem;
+    
 }
+
+summary:hover { 
+    transition: text-shadow, color 0.3s ease;
+    text-shadow: 1px 3px 5px  #ffffff;
+}
+
+summary i {
+    font-size: 18px; 
+}
+
 
 img {
     width: 100%;
@@ -132,12 +150,7 @@ a {
     font-weight: 600;
     background-color: transparent;
     transition: color 0.5s ease;
-    text-shadow: #ffffff;
-}
-
-a:hover {
-    cursor: pointer;
-    color: #b800c5; 
+    cursor: pointer; 
 }
 
 nav a {
@@ -171,8 +184,7 @@ footer {
 
 .footer-section a:hover {
     color: #9600af;
-    transition: text-shadow, color 0.3s ease;
-    text-shadow: 0px 0px 5px #fbccff6b;
+    text-shadow: 0px 0px 7px #fbccff2e;
 }
 
 
