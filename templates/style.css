@@ -260,7 +260,7 @@ footer {
   header {
     grid-template-columns: 1fr;
     gap: 1rem;
-    padding-top: 7rem; /* espaço para o menu fixo */
+    padding-top: 7rem;
   }
 
   header div {
