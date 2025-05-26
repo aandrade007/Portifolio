@@ -14,17 +14,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+    <nav class="menu-fixo">
+        <img src="my_picture.jpeg" alt="Foto pessoal">   
+        <a href="#apresentação">Apresentação</a>
+        <a href="#curriculo">Currículo</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#certificações">Certificações</a>
+    </nav>
     <header>
         <div>
             <h1>Bem-vindo ao meu portfólio acadêmico</h1><br>
             <h4>Nesta página, você encontrará informações relevantes sobre minha trajetória.</h4>
         </div>
         <img src="foto_minha.jpeg" alt="Foto pessoal">
-        <!-- <img src="foto_minha_formatura_copo.jpeg" alt="Foto pessoal">    -->
     </header><br>
     <main>
 
-        <section>
+        <section id="apresentação">
             <h2>Apresentação <br><i class="material-icons">person</i></h2>
             <p>Breve introdução pessoal</p>
             <section class="section-baixa">
@@ -63,7 +70,7 @@
             </section>
         </section>
 
-        <section>
+        <section id="curriculo">
             <h2>Currículo <br><i class='fas fa-address-card'></i></h2>
             <p>Resumo curricular</p>
                 <section class="section-baixa">
@@ -128,7 +135,7 @@
                 </section>
         </section>
 
-        <section>
+        <section id="projetos">
             <h2>Principais Projetos <br><i class='fas fa-book'></i></h2>
             <p>Projetos de maior relevância acadêmica</p>
             <section class="section-baixa">
@@ -153,9 +160,9 @@
                         No terceiro ano do curso técnico, elaborei juntamente com meu grupo uma esteira automatizada com balança inteligente, concluída em 2024. <br><br>
                         Fui responsável pela parte elétrica do projeto, realizando a conexão dos componentes (balança, motores e sensores).<br>
                         Além disso, desenvolvi a lógica de programação utilizando Arduino e colaborei com a redação da documentação técnica e o desenho de esquemas do projeto.
-                    </p>
+                    </p><br>
 
-                    <p>Download da documentação completa:</p><br>
+                    <p>Documentação completa do TCC:</p>
                     <nav><a href="Documentacao_TCC_atualizado.pdf.pdf" target="_blank">Acessar TCC em PDF</a></nav><br><br>
 
                     <h3>Projeto de API – FATEC-SJC</h3>
@@ -166,15 +173,15 @@
                         <strong>Sprint 2:</strong> Expansão das páginas estruturais, mantendo o foco na organização do conteúdo. Ainda sem aplicação de estilos.<br><br>
                         <strong>Sprint 3:</strong> Implementação de estilização com CSS e padronização visual da interface. Em fase de estudo para aplicação de Bootstrap e melhorias na responsividade do layout. <br>
                         Fui responsável por elabaorar páginas Html e estiliza-las com Css conforme o padrão definido.
-                    </p>
+                    </p><br>
 
-                    <p>Repositório do projeto:</p><br>
+                    <p>Repositório do projeto:</p>
                     <nav><a href="https://github.com/Y2K-Systems/Projeto-Integrador-2025-1" target="_blank">Visualizar no GitHub</a></nav>
                 </details>
             </section>
         </section>
 
-        <section>
+        <section id="habilidades">
             <h2>Habilidades <br><i class='fas fa-graduation-cap'></i></h2>
             <p>Principais competências técnicas e interpessoais</p>
             <section class="section-baixa">
@@ -183,7 +190,7 @@
                             <i class="fa fa-mouse-pointer"></i>
                             Clique aqui
                         </summary><br>
-                    <h3>Competências técnicas:</h3><br>
+                    <h3>Hard Skills:</h3><br>
                     <p>
                         <ul>
                             <li>HTML/CSS</li></i>
@@ -204,10 +211,11 @@
                             <li>Proatividade</li>
                             <li>Trabalho colaborativo</li>
                             <li>Comunicação eficaz</li>
-                            <li>Raciocínio lógico e resolução de problemas</li>
+                            <li>Raciocínio lógico</li>
+                            <li>resolução de problemas</li>
                             <li>Comprometimento com prazos</li>
                             <li>Empatia</li>
-                            <li>Capacidade de adaptação (resiliência)</li>
+                            <li>Resiliência</li>
                             <li>Liderança</li>
                         </ul>
                     </p>
@@ -215,7 +223,7 @@
             </section>
         </section>
 
-        <section>
+        <section id="certificações">
             <h2>Certificações <br><i class='fas fa-medal'></i></h2>
             <p>Certificação de curso introdutório em Git</p>
             <section class="section-baixa">
