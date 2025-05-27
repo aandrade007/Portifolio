@@ -36,8 +36,12 @@ header img {
     height: 25rem;
     border-radius: 10%;
     object-fit: cover;
-    box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
     margin-right: 10rem;
+    transition: box-shadow 0.4s ease;
+}
+
+header img:hover {
+    box-shadow: 1px 1px 6px rgb(255, 255, 255);
 }
 
 .menu-fixo {
@@ -165,7 +169,7 @@ details summary {
     list-style: none;
     align-items: center;
     gap: 8px; 
-    padding: 0.4rem;
+    padding: 0.9rem;
     transition: text-shadow 0.3s ease;   
 }
 
