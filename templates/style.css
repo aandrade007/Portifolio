@@ -37,11 +37,12 @@ header img {
     border-radius: 10%;
     object-fit: cover;
     margin-right: 10rem;
-    transition: box-shadow 0.4s ease;
+    transition: box-shadow 0.4s ease, transform 0.3s ease;
 }
 
 header img:hover {
     box-shadow: 1px 1px 6px rgb(255, 255, 255);
+    transform: scale(1.07);
 }
 
 .menu-fixo {
