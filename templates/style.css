@@ -42,7 +42,7 @@ header img {
 
 header img:hover {
     box-shadow: 1px 1px 6px rgb(255, 255, 255);
-    transform: scale(1.07);
+    transform: scale(1.01);
 }
 
 .menu-fixo {
