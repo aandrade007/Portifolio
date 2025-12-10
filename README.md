@@ -1,7 +1,7 @@
 # 🌐 Meu Portfólio Acadêmico
 
 Bem-vindo(a) ao meu **portfólio acadêmico**!  
-Este projeto foi criado com o objetivo de **aperfeiçoar minhas habilidades em HTML e CSS**, além de servir como uma forma de apresentar um pouco mais sobre quem eu sou — tanto no âmbito **acadêmico** quanto **pessoal**.
+Este projeto foi criado com o objetivo de **aperfeiçoar minhas habilidades em desenvolvimento web**, além de servir como uma forma de apresentar um pouco mais sobre quem eu sou — tanto no âmbito **acadêmico** quanto **pessoal**.
 
 ---
 
@@ -25,8 +25,8 @@ Criar um espaço que mostre minha **evolução como desenvolvedor** e estudante,
 ## 💻 Tecnologias utilizadas
 
 - **HTML5**  
-- **CSS3**  
-- *(Em breve, novas tecnologias serão adicionadas!)*
+- **CSS3**
+- **JavaScript**
 
 ---
 
