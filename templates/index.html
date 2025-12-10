@@ -1,262 +1,399 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portifolio</title>
-    <link rel="icon" type="image/png" href="Logo_D_A.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
-</head>
-<body id="topo">
-    <nav class="menu-fixo">
-        <a href="#topo"><img src="my_picture.jpeg" alt="Foto pessoal"></a>  
-        <a href="#apresentação">Apresentação</a>
-        <a href="#curriculo">Currículo</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#certificações">Certificações</a>
-    </nav>
-    <header>
-        <div>
-            <h1>Bem-vindo ao meu portfólio acadêmico</h1><br>
-            <h4>Nesta página, você encontrará informações relevantes sobre minha trajetória.</h4>
-        </div>
-        <img src="foto_minha.jpeg" alt="Foto pessoal">
-    </header><br>
-    <main>
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My porfile</title>
+        <link rel="icon" type="image/png" href="logoGPT.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Sora:wght@300;400;600;700&family=Urbanist:wght@300;400;500;600&family=Audiowide&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1CSTMVPVWB"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-        <section id="apresentação">
-            <h2>Apresentação <br><i class="material-icons">person</i></h2>
-            <p>Breve introdução pessoal</p>
-            <section class="section-baixa">
-                <details>
-                        <summary>
-                            <i class="fa fa-mouse-pointer"></i>
-                            Clique aqui
-                        </summary><br>
-                        <h3>Nome:</h3>
-                        <p>
-                        Davi Andrade Amancio dos Anjos
-                        </p><br>
+            gtag('config', 'G-1CSTMVPVWB');
+        </script>
+    </head>
+    <body>
 
-                        <h3>Idade:</h3>
-                        <p>
-                        18 anos
-                        </p><br>
+        <div id="particles-js"></div>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+        <script>
+            particlesJS.load('particles-js', 'particles.json');
+        </script>
 
-                        <h3>Formação:</h3> 
-                        <p>
-                            Atualmente, sou estudante do curso superior de Tecnologia em Análise e Desenvolvimento de Sistemas na FATEC São José dos Campos.<br>
-                            Concluí o Ensino Médio com formação técnica integrada em Automação Industrial pela ETEC São José dos Campos.
-                        </p><br>
+        <header>
+            <button class="menu-hamburger" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <a class="naveg" href="#inicio"><img src="Logo_D_A.png" alt="Foto pessoal"></a>
+                <a class="naveg" href="#sobreMim">Sobre mim</a>
+                <a class="naveg" href="#certificados">Certificados</a>
+                <a class="naveg" href="#projetos">Projetos</a>
+                <a class="naveg" href="#Skills">Skills</a>
+                <a class="naveg" href="#contato">Contato</a>
+            </nav>
+                <button class="mode-toggle" aria-label="Alternar modo escuro e claro">
+                    <i class="fa-solid fa-sun light-icon"></i>
+                    <i class="fa-solid fa-moon dark-icon"></i>
+                </button>
+        </header>
 
-                        <h3>Objetivo:</h3>
-                        <p>
-                            Meu principal objetivo ao cursar Análise e Desenvolvimento de Sistemas é adquirir conhecimento técnico especializado que proporcione crescimento pessoal e profissional.<br>
-                            Tenho grande interesse na área de tecnologia e sempre busquei me aprofundar nesse campo, demonstrando empenho e dedicação contínuos.
-                        </p><br>
+        <main>
+            <section id="inicio" data-aos="fade-down" data-aos-duration="1500">
+                <div class="inicio_euSou">
+                    <h3>Bem-vindo ao meu portfólio acadêmico!</h3><br>
+                    <h2>Meu nome é Davi Andrade</h2> <br>
+                    <h1>Softwere Developer</h1>
+                </div>
 
-                        <h3>Hobbies:</h3>
-                        <p>
-                            Entre meus principais hobbies estão: praticar esportes (especialmente futebol), cozinhar, buscar novos aprendizados, conviver com minha família, frequentar a igreja e interagir socialmente.
-                        </p>
-                </details>
+                <img class="inicio_foto" src="fotoFormatura.png" alt="Foto minha na formatura">
             </section>
-        </section>
 
-        <section id="curriculo">
-            <h2>Currículo <br><i class='fas fa-address-card'></i></h2>
-            <p>Resumo curricular</p>
-                <section class="section-baixa">
-                    <details>
-                        <summary>
-                            <i class="fa fa-mouse-pointer"></i>
-                            Clique aqui
-                        </summary><br>
-                        <h3>Localização</h3><br>
-                        <p>São José dos Campos - SP</p><br><br>
+            <hr class="linha">
+
+            <section id="sobreMim" data-aos="fade-down" data-aos-duration="1500">
                 
-                        <h3>Contato</h3><br>
-                        <p>Telefone: (12) 99638-4471</p>
-                        <p>E-mail: amanciodavi2007@gmail.com</p><br><br>
-                    
-                        <h3>Objetivo</h3><br>
-                        <p>Iniciar minha trajetória profissional com o intuito de adquirir experiência prática e desenvolver competências técnicas e interpessoais.</p><br><br>
-                    
-                        <h3>Formação Acadêmica</h3><br>
-                        <ul>
-                            <li>Ensino Médio com formação técnica em Automação Industrial – ETEC-SJC</li>
-                            <li>Cursando o 1º semestre de Análise e Desenvolvimento de Sistemas – FATEC-SJC</li>
-                        </ul><br><br>
-                    
-                        <h3>Experiências</h3><br>
-                        <ul>
-                            <li>Participação em feiras tecnológicas e desenvolvimento de projetos técnicos durante os três anos do Ensino Médio</li>
-                            <li>Elaboração de uma esteira com balança inteligente como Trabalho de Conclusão de Curso (TCC)</li>
-                            <li>Colaboração no desenvolvimento de uma API no primeiro semestre da graduação, utilizando metodologias ágeis (Scrum)</li>
-                        </ul><br><br>
+            <div>
+                <h1>Sobre Mim</h1>
+                <p class="sobreMim_texto">Atualmente, sou estudante do curso superior de Tecnologia em Análise e Desenvolvimento de  Sistemas na FATEC São José dos Campos.<br>
+                Concluí o Ensino Médio com formação técnica integrada em Automação Industrial pela ETEC São José dos Campos.</p><br>
+                <p class="sobreMim_texto">Estou aprendendo Python e Java entre outras tecnologias e colaborando em projetos de API's integrado a banco de dados.</p><br>
+                <p class="sobreMim_texto">
+                Meu principal objetivo ao cursar Análise e Desenvolvimento de Sistemas é construir uma base técnica sólida que me permita evoluir continuamente, tanto profissional quanto pessoalmente. A tecnologia sempre despertou minha curiosidade, entender como as coisas funcionam, resolver problemas e conseguir criar soluções eficientes é algo que realmente me motiva. Por isso, estou sempre em busca de novos aprendizados, aprimorando minhas habilidades com dedicação e constância.</p>
+                <br>
+                <p class="sobreMim_texto">
+                No meu tempo livre, gosto de me manter ativo praticando esportes, principalmente futebol, JiuJitsu e boxe. Também amo cozinhar, estar com minha família, participar da igreja e estar em ambientes de boa conversa, onde posso conhecer pessoas e trocar experiências. Esses momentos são essenciais para manter meu equilíbrio e minha criatividade.</p>
+                <br>
+                <p class="sobreMim_texto">Caso se interesse pelo meu perfil, aqui está meu curríulo: 
+                    <a class="inicio_botao" target="_blank" rel="noopener noreferrer" href="./CV_davi.pdf">CV
+                        <i class="fa-solid fa-download"></i></a>
+                    </a>
+                </p>
                 
-                        <h3>Habilidades</h3><br>
-                        <ul>
-                            <li>Proatividade</li>
-                            <li>Trabalho em equipe</li>
-                            <li>Liderança</li>
-                            <li>Boa comunicação</li>
-                            <li>Capacidade analítica e de resolução de problemas</li>
-                            <li>Pontualidade</li>
-                            <li>Empatia</li>
-                            <li>Resiliência</li>
-                            <br>
-                            <li>HTML/CSS</li>
-                            <li>Python</li>
-                            <li>JavaScript</li>
-                            <li>Git</li>
-                            <li>Flask</li>
-                            <li>Microsoft Office 365</li>
-                            <li>Codesys</li>
-                            <li>Factory I/O</li>
-                            <li>CLP</li>
-                            <li>Inglês técnico</li>
-                        </ul><br><br>
+            </div>
+
+            <hr class="linha">
+            <br>
+
+        <section id="certificados" data-aos="fade-down" data-aos-duration="1500">
+            <h1>Certificados</h1><br><br>
+
+            <div class="carousel">
+                <button class="btn prev">⟨</button>
+                <div class="carousel-display" id="carousel-display"></div>
+                <button class="btn next">⟩</button>
+            </div>
+            <div class="carousel-indicators" id="indicators-container"></div>
+        </section>
+        <br><br>
+
+            <hr class="linha">
+
+            <section id="projetos" data-aos="fade-down" data-aos-duration="1500">
+                <h1>Projetos</h1>
+                
+                <div class="timeline">
+
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h3 class="card-titulo">Esteira com Balança Inteligente</h3>
+                            <p class="card-data">Fevereiro - Dezembro de 2024</p>
+                            <p class="card-descricao">O objetivo foi construir uma balança implementada em uma esteira, com a função de automatizar o processo de pesagem, implementando a junção dos processos (pesagem e direcionamento) em apenas um, com a tentativa de deixá-lo mais rápido e eficiente, de automatizar processos manuais e direcioná-lo de acordo com o peso obtido.</p>
+                            
+                            <div class="card-tecnologias">
+                                <i class="devicon-cplusplus-plain" title="C++"></i>
+                                <i class="devicon-arduino-plain" title="Arduino"></i>
+                                <i class="fa-solid fa-microchip" title="Módulo/Célula de Carga"></i>
+                            </div>
+                            <a href="Documentacao_TCC_atualizado.pdf.pdf" target="_blank" class="link-github">Ver Documentação</a>
+                        </div>
+                    </div>
                     
-                        <h3>Idiomas</h3><br>
-                        <ul>
-                            <li>Inglês – Intermediário</li>
-                            <li>Espanhol – Básico</li>
-                        </ul><br>
-                        <nav><a href="Currículo_Davi.pdf" target="_blank">Acessar curríulo em PDF</a></nav>
-                    </details>
-                </section>
-        </section>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h3 class="card-titulo">API de Gerenciamento e cadastro de atestados</h3>
+                            <p class="card-data">Fevereiro - Junho de 2025</p>
+                            <p class="card-descricao">Projeto focado em registrar e gerir atestados médicos de alunos, facilitando a comunicação entre estudantes, professores e direção. 
+                                Utiliza Python, Flask, HTML, CSS e BootStrap</p>
+                            <div class="card-tecnologias">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-flask-original"></i>
+                                <i class="devicon-html5-plain"></i>
+                                <i class="devicon-css3-plain"></i>
+                                <i class="devicon-javascript-plain"></i>
+                                <i class="devicon-bootstrap-plain"></i>
+                            </div>
+                            <a href="https://github.com/Y2K-Systems/Projeto-Integrador-2025-1" target="_blank" class="link-github">Ver no GitHub</a>
+                        </div>
+                    </div>
 
-        <section id="projetos">
-            <h2>Principais Projetos <br><i class='fas fa-book'></i></h2>
-            <p>Projetos de maior relevância acadêmica</p>
-            <section class="section-baixa">
-                <details>
-                        <summary>
-                            <i class="fa fa-mouse-pointer"></i>
-                            Clique aqui
-                        </summary><br>
-                    <h3>Projetos desenvolvidos para feiras tecnológicas</h3>
-                    <p>
-                        Durante o período do curso técnico na ETEC São José dos Campos, participei anualmente de feiras tecnológicas com foco em soluções inovadoras integradas ao conteúdo programático.<br><br>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h3 class="card-titulo">Aplicação Desktop para Gestão de PDIs</h3>
+                            <p class="card-data">Agosto - Dezembro de 2025</p>
+                            <p class="card-descricao">Sistema desktop desenvolvido para otimizar e automatizar a criação e o gerenciamento de Planos de Desenvolvimento Individual (PDIs). 
+                            <br>A solução utiliza Java (POO) para a lógica de negócio robusta, com interface gráfica construída em JavaFX e integração com banco de dados MySQL para persistência dos dados.</p>
+                            
+                            <div class="card-tecnologias">
+                                <i class="devicon-java-plain"></i>
+                                <i class="devicon-git-plain"></i>
+                                <i class="devicon-mysql-plain"></i>
+                            </div>
+                            <a href="https://github.com/dottecteam/PDI" target="_blank" class="link-github">Ver no GitHub</a>
+                        </div>
+                    </div>
 
-                        <strong>1º ano:</strong> Desenvolvimento de um papel sustentável com sementes de girassol incorporadas, destinado à fabricação de embalagens biodegradáveis para alimentos. O objetivo era promover a sustentabilidade, permitindo que a embalagem fosse descartada diretamente no solo, favorecendo o meio ambiente.<br><br>
-
-                        <strong>2º ano:</strong> Criação de um dispositivo para captura de insetos voadores. O equipamento utilizava um ventilador de computador para sucção, luz LED para atração, e um sistema de alimentação elétrica com interruptor. Após atraídos, os insetos eram sugados e não conseguiam sair.<br><br>
-
-                        <strong>3º ano:</strong> Desenvolvimento de um girassol eletrônico, com sensores LDR e motor de inclinação. O sistema detectava a direção da maior intensidade luminosa e inclinava a flor nessa direção, simulando o comportamento natural do girassol.
-                    </p><br>
-
-                    <h3>Trabalho de Conclusão de Curso (TCC)</h3>
-                    <p>
-                        No terceiro ano do curso técnico, elaborei juntamente com meu grupo uma esteira automatizada com balança inteligente, concluída em 2024. <br><br>
-                        Fui responsável pela parte elétrica do projeto, realizando a conexão dos componentes (balança, motores e sensores).<br>
-                        Além disso, desenvolvi a lógica de programação utilizando Arduino e colaborei com a redação da documentação técnica e o desenho de esquemas do projeto.
-                    </p><br>
-
-                    <p>Documentação completa do TCC:</p>
-                    <nav><a href="Documentacao_TCC_atualizado.pdf.pdf" target="_blank">Acessar TCC em PDF</a></nav><br><br>
-
-                    <h3>Projeto de API – FATEC-SJC</h3>
-                    <p>
-                        No primeiro semestre da graduação, estou participando do desenvolvimento de uma aplicação web para consulta e envio de atestados, empregando a metodologia Scrum.<br><br>
-
-                        <strong>Sprint 1:</strong> Criação de páginas básicas com HTML semântico, compondo a estrutura inicial da aplicação.<br><br>
-                        <strong>Sprint 2:</strong> Expansão das páginas estruturais, mantendo o foco na organização do conteúdo. Ainda sem aplicação de estilos.<br><br>
-                        <strong>Sprint 3:</strong> Implementação de estilização com CSS e padronização visual da interface. Em fase de estudo para aplicação de Bootstrap e melhorias na responsividade do layout. <br>
-                        Fui responsável por elabaorar páginas Html e estiliza-las com Css conforme o padrão definido.
-                    </p><br>
-
-                    <p>Repositório do projeto:</p>
-                    <nav><a href="https://github.com/Y2K-Systems/Projeto-Integrador-2025-1" target="_blank">Visualizar no GitHub</a></nav>
-                </details>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h3 class="card-titulo">Sistema de Cadastro dos Encontros</h3>
+                            <p class="card-data">Novembro - Dezembro de 2025</p>
+                            <p class="card-descricao">O sistema foi desenvolvido para organizar e gerenciar os encontros das Mães Que Oram pelos Filhos, um grupo de oração de uma paróquia.
+                            <br>Permite o cadastro de mães participantes, o gerenciamento dos encontros e serviços e a emissão de relatórios automáticos em .txt.</p>
+                            
+                            <div class="card-tecnologias">
+                                <i class="devicon-java-plain"></i>
+                                <i class="devicon-git-plain"></i>
+                                <i class="devicon-mysql-plain"></i>
+                            </div>
+                            <a href="https://github.com/dottecteam/PDI" target="_blank" class="link-github">Ver no GitHub</a>
+                        </div>
+                    </div>
+                </div>
             </section>
-        </section>
 
-        <section id="habilidades">
-            <h2>Habilidades <br><i class='fas fa-graduation-cap'></i></h2>
-            <p>Principais competências técnicas e interpessoais</p>
-            <section class="section-baixa">
-                <details>
-                        <summary>
-                            <i class="fa fa-mouse-pointer"></i>
-                            Clique aqui
-                        </summary><br>
-                    <h3>Hard Skills:</h3><br>
-                    <p>
-                        <ul>
-                            <li>HTML/CSS</li></i>
-                            <li>Python</li>
-                            <li>JavaScript</li>
-                            <li>Flask</li>
-                            <li>Git</li>
-                            <li>Microsoft Office 365</li>
-                            <li>Codesys</li>
-                            <li>Factory I/O</li>
-                            <li>CLP</li>
-                            <li>Inglês técnico</li>
-                        </ul>
-                    </p><br><br>
-                        <h3>Soft Skills:</h3><br>
-                    <p>
-                        <ul>
-                            <li>Proatividade</li>
-                            <li>Trabalho colaborativo</li>
-                            <li>Comunicação eficaz</li>
-                            <li>Raciocínio lógico</li>
-                            <li>resolução de problemas</li>
-                            <li>Comprometimento com prazos</li>
-                            <li>Empatia</li>
-                            <li>Resiliência</li>
-                            <li>Liderança</li>
-                        </ul>
-                    </p>
-                </details>
+            <hr class="linha">
+            <br><br>
+
+            <section id="Skills" data-aos="fade-down" data-aos-duration="1500">
+                <div class="tecs_titulo">
+                    <h1>Skills</h1>
+                </div>
+                <div class="tecs_grupo">
+                    <div class="tecs_item">
+                        <i class="devicon-html5-plain"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-css3-plain"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-javascript-plain"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-python-plain"></i>
+                        <p>Python</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-flask-original"></i> 
+                        <p>Flask</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-java-plain"></i>
+                        <p>Java</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-git-plain"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-github-original"></i>
+                        <p>GitHub</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-docker-plain"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-mysql-plain"></i>
+                        <p>MySQL</p>
+                    </div>
+                    <div class="tecs_item">
+                        <i class="devicon-php-plain"></i>
+                        <p>PHP</p>
+                    </div>
+                </div>
             </section>
-        </section>
 
-        <section id="certificações">
-            <h2>Certificações <br><i class='fas fa-medal'></i></h2>
-            <p>Certificação de curso introdutório em Git</p>
-            <section class="section-baixa">
-                <details>
-                        <summary>
-                            <i class="fa fa-mouse-pointer"></i>
-                            Clique aqui
-                        </summary><br>
-                    <img src="Certificado do Git.jpeg" alt="Certificado de curso de Git">
-                </details>
-            </section>
-        </section>
-    </main>
 
-    <footer>
-        <div class="footer-section">
-            <a href="https://github.com/aandrade007" target="_blank"><i class='fab fa-github'></i></a>
-            <a href="mailto:amanciodavi2007@gmail.com?subject=Contato%20via%20portfólio&body=Olá%20Davi," target="_blank"><i class="fa fa-envelope"></i></a>
-            <a href="https://wa.me/5512996384471" target="_blank"><i class="fa fa-phone"></i></a>
-        </div>
-        
-    </div>
-    
-    <div class="footer-section">
-        <a>&copy; 2025 - Meu Portfólio Acadêmico</a>
-    </div>
-    
-    <div class="footer-section">
-        <a href="https://www.instagram.com/d.andrade_04?igsh=MTNxOW1nYmc3amZoMA%3D%3D&utm_source=qr" target="_blank"><i class='fab fa-instagram'></i></a>
-        <a href="https://wa.me/5512996384471" target="_blank"><i class='fab fa-whatsapp'></i></a>
-        <a href="https://www.linkedin.com/in/davi-andrade-a3b22a337/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    </div>
-    </footer>
-</body>
-</html>
+            <hr class="linha">
+
+            <footer id="contato" data-aos="fade-down" data-aos-duration="1500">
+                <div class="footer-section">
+                    <a href="https://github.com/aandrade007" target="_blank"><i class='fab fa-github'></i></a>
+                    <a href="mailto:amanciodavi2007@gmail.com?subject=Contato%20via%20portfólio&body=Olá%20Davi," target="_blank"><i class="fa fa-envelope"></i></a>
+                    <a href="https://wa.me/5512996384471" target="_blank"><i class="fa fa-phone"></i></a>
+                </div>
+            
+                <div class="footer-section">
+                    <a>&copy; 2025 - Meu Portfólio Acadêmico</a>
+                </div>
+                
+                <div class="footer-section">
+                    <a href="https://www.instagram.com/d.andrade_04?igsh=MTNxOW1nYmc3amZoMA%3D%3D&utm_source=qr" target="_blank"><i class='fab fa-instagram'></i></a>
+                    <a href="https://wa.me/5512996384471" target="_blank"><i class='fab fa-whatsapp'></i></a>
+                    <a href="https://www.linkedin.com/in/davi-andrade-a3b22a337/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </footer>
+
+        </main>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+            const btnMenu = document.querySelector('.menu-hamburger');
+            const nav = document.querySelector('header nav');
+            btnMenu.addEventListener('click', function() {
+                nav.classList.toggle('nav-open');
+                btnMenu.classList.toggle('open');
+                btnMenu.setAttribute('aria-expanded', btnMenu.classList.contains('open'));
+            });
+            document.querySelectorAll('nav .naveg').forEach(link => {
+                link.addEventListener('click', () => {
+                    if(window.innerWidth <= 900) {
+                        nav.classList.remove('nav-open');
+                        btnMenu.classList.remove('open');
+                        btnMenu.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            });
+
+            const imgs = ["Certificado do Git.jpeg", "CertificadoAlura_IA.png", "CerfificadoPyInterface.png", "CerificadoAlura_JS.png", "CertificadoProjCompleto.png", "CertificadoPyCompleto.png", "CertificadoPyPOO.png"];
+            let index = 0;
+
+            const carouselDisplay = document.getElementById("carousel-display");
+            const indicatorsContainer = document.getElementById("indicators-container");
+            const prevButton = document.querySelector(".prev");
+            const nextButton = document.querySelector(".next");
+            const totalCertificates = imgs.length;
+
+            function updateCarouselDisplay() {
+            carouselDisplay.classList.add('transitioning'); 
+            setTimeout(() => {
+                carouselDisplay.innerHTML = '';
+                
+                //Se for o primeiro, não mostra nada
+                const prevIndex = index - 1;
+                //Se for o último, não mostra nada
+                const nextIndex = index + 1;
+
+                const createImage = (src, className) => {
+                    const img = document.createElement('img');
+                    img.src = src;
+                    img.classList.add(className);
+                    img.alt = `Certificado ${className}`;
+                    return img;
+                };
+
+                if (prevIndex >= 0) {
+                    carouselDisplay.appendChild(createImage(imgs[prevIndex], 'side'));
+                } else {
+                    const placeholder = document.createElement('div');
+                    placeholder.style.width = '130px'; 
+                    carouselDisplay.appendChild(placeholder);
+                }
+
+                carouselDisplay.appendChild(createImage(imgs[index], 'center'));
+
+                if (nextIndex < totalCertificates) {
+                    carouselDisplay.appendChild(createImage(imgs[nextIndex], 'side'));
+                } else {
+                    const placeholder = document.createElement('div');
+                    placeholder.style.width = '130px';
+                    carouselDisplay.appendChild(placeholder);
+                }
+
+                updateButtonsAndIndicators();
+
+                carouselDisplay.classList.remove('transitioning'); 
+            }, 80);
+        }
+
+            function createIndicators() {
+                indicatorsContainer.innerHTML = '';
+                imgs.forEach((_, i) => {
+                    const dot = document.createElement('span');
+                    dot.classList.add('dot');
+                    dot.addEventListener('click', () => {
+                        index = i;
+                        updateCarouselDisplay();
+                    });
+                    indicatorsContainer.appendChild(dot);
+                });
+            }
+
+            function updateButtonsAndIndicators() {
+                const dots = indicatorsContainer.querySelectorAll('.dot');
+                dots.forEach((dot, i) => {
+                    dot.classList.remove('active');
+                    if (i === index) {
+                        dot.classList.add('active');
+                    }
+                });
+
+                prevButton.disabled = index === 0;
+                nextButton.disabled = index === totalCertificates - 1;
+
+                prevButton.style.opacity = index === 0 ? '0.5' : '1';
+                nextButton.style.opacity = index === totalCertificates - 1 ? '0.5' : '1';
+            }
+
+            nextButton.addEventListener("click", () => {
+                if (index < totalCertificates - 1) {
+                    index++;
+                    updateCarouselDisplay();
+                }
+            });
+
+            prevButton.addEventListener("click", () => {
+                if (index > 0) {
+                    index--;
+                    updateCarouselDisplay();
+                }
+            });
+
+            createIndicators();
+            updateCarouselDisplay();
+
+            const toggleBtn = document.querySelector('.mode-toggle');
+            const body = document.body;
+            
+            // Função principal para aplicar o modo
+            function toggleDarkMode() {
+                body.classList.toggle('light-mode');
+                
+                if (body.classList.contains('light-mode')) {
+                    localStorage.setItem('theme', 'light');
+                } 
+                else {
+                    localStorage.setItem('theme', 'dark');
+                }
+            }
+
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'light') {
+                body.classList.add('light-mode');
+            } 
+            else if (savedTheme === 'dark') {
+                body.classList.remove('light-mode');
+            }
+
+            else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+                body.classList.add('light-mode');
+            }
+
+            toggleBtn.addEventListener('click', toggleDarkMode);
+        </script>
+    </body>
+    </html>
