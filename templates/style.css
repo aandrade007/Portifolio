@@ -768,6 +768,7 @@
         .sobreMim_texto {
             font-size: 18px;
         }
+        
         .inicio_botao {
             margin: 20px auto;
         }
@@ -805,7 +806,13 @@
             font-size: 150%;
         }
         .inicio_foto {
-            width: 75%;
+            width: 40%;
+            box-shadow: 0 0 15px #e748ff5a;
+        }
+
+        .inicio_foto:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0 10px 5px #ee86fe5c;
         }
 
         .carousel-display {
