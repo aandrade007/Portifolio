@@ -27,13 +27,13 @@ document.querySelectorAll('nav .naveg').forEach(link => {
 });
 
 const imgs = [
-    "../img/Certificado do Git.jpeg", 
-    "../img/CertificadoAlura_IA.png", 
-    "../img/CerfificadoPyInterface.png", 
-    "../img/CerificadoAlura_JS.png", 
-    "../img/CertificadoProjCompleto.png", 
-    "../img/CertificadoPyCompleto.png", 
-    "../img/CertificadoPyPOO.png"
+    "./img/Certificado do Git.jpeg", 
+    "./img/CertificadoAlura_IA.png", 
+    "./img/CerfificadoPyInterface.png", 
+    "./img/CerificadoAlura_JS.png", 
+    "./img/CertificadoProjCompleto.png", 
+    "./img/CertificadoPyCompleto.png", 
+    "./img/CertificadoPyPOO.png"
 ];
 let index = 0;
 
