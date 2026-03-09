@@ -1,6 +1,6 @@
 # 🌐 Meu Portfólio Acadêmico
 
-> **Acesse o portfólio online aqui:** [https://portifolio-cs6u.vercel.app/](https://portifolio-cs6u.vercel.app/)
+> **Acesse o portfólio online aqui:** https://aandrade007.github.io/Portifolio/
 
 ---
 
